@@ -10,6 +10,11 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
   styleUrls: ['app.component.scss']
 })
 export class AppComponent {
+  public user = {
+    name: 'Andre Alencar',
+    imgUrl: 'https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y'
+  }
+
   public appPages = [
     {
       title: 'Home',

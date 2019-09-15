@@ -2,9 +2,10 @@
   <ion-split-pane>
     <ion-menu type="overlay">
       <ion-header>
-        <ion-toolbar>
-          <ion-title>Menu</ion-title>
-        </ion-toolbar>
+        <ion-avatar>          
+          <img [src]="user.imgUrl">
+        </ion-avatar>
+        <p>{{user.name}}</p>
       </ion-header>
       <ion-content>
         <ion-list>
